@@ -6,7 +6,7 @@ import { formatDateString } from '@/lib/utils';
 
 interface Props {
     id: string;
-    currentUserId: string;
+    currentUserId: string |undefined;
     parentId: string | null;
     content: string;
     author: {
